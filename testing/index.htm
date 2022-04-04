@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet"
+        href="ol.css" type="text/css">
+    <style>
+        body,
+        html {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .map {
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+    <script src="ol.js"></script>
+    <script src="corpus.js"></script>
+    <title>OpenLayers Example</title>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM(),
+                }),
+            ],
+            // view: new ol.View({
+            //     center: [0, 0],
+            //     zoom: 2,
+            // }),
+            view: new ol.View({
+                center: [7466292.854832848, 2868302.7492024004],
+                zoom: 11.7,
+            }),
+        });
+
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
