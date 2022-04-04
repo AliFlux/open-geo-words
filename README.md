@@ -37,7 +37,7 @@ import { OpenGeoWords } from "open-geo-words";
 ## Install via `<script>` tag from CDN
 
 ```html
-<script src="view-source:https://unpkg.com/open-geo-words@1.0.0/dist/open-geo-words.js"></script>
+<script src="https://unpkg.com/open-geo-words@1.0.1/dist/open-geo-words.js"></script>
 ```
 
 And then in your code:
