@@ -28,16 +28,22 @@ Explore the [examples directory](/examples) for demos that you can run on your b
 npm install open-geo-words
 ```
 
-And then in your code:
+And then in your browser code:
 
 ```js
 import { OpenGeoWords } from "open-geo-words";
 ```
 
+Or in your Node.js code:
+
+```js
+var { OpenGeoWords } = require("open-geo-words");
+```
+
 ## Install via `<script>` tag from CDN
 
 ```html
-<script src="https://unpkg.com/open-geo-words@1.0.1/dist/open-geo-words.js"></script>
+<script src="https://unpkg.com/open-geo-words@1.0.2/dist/open-geo-words.js"></script>
 ```
 
 And then in your code:
