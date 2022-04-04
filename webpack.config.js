@@ -6,6 +6,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'open-geo-words.js',
+        globalObject: 'this',
         library: {
             name: 'open-geo-words',
             type: 'umd',
