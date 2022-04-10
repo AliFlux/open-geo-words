@@ -40,8 +40,12 @@ map.on('pointermove', function (evt) {
 
     var infoBox = document.getElementById("info");
 
+    if(distance > 2) {
+        console.error("distance: ", distance);
+    }
+
     infoBox.innerText = text + "\n" + distance.toFixed(2) + "m accuracy"
 });
 
-console.log(OpenGeoWords.generateWordsString([73.0479, 33.6844]));
-console.log(OpenGeoWords.parseWordsString("///final.give.embedded.gulf"));
+// console.log(OpenGeoWords.generateWordsString([73.0479, 33.6844]));
+// console.log(OpenGeoWords.parseWordsString("///final.give.embedded.gulf"));
