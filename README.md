@@ -43,7 +43,7 @@ var { OpenGeoWords } = require("open-geo-words");
 ## Install via `<script>` tag from CDN
 
 ```html
-<script src="https://unpkg.com/open-geo-words@1.0.4/dist/open-geo-words.js"></script>
+<script src="https://unpkg.com/open-geo-words@1.0.6/dist/open-geo-words.js"></script>
 ```
 
 And then in your code:

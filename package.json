@@ -1,6 +1,6 @@
 {
     "name": "open-geo-words",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Convert coordinates into user-friendly three words",
     "homepage": "https://github.com/AliFlux/open-geo-words",
     "main": "dist/open-geo-words.js",
