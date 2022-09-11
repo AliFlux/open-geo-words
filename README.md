@@ -28,13 +28,13 @@ Explore the [examples directory](/examples) for demos that you can run on your b
 npm install open-geo-words
 ```
 
-And then in your browser code:
+And then in your browser / ES code:
 
 ```js
 import { OpenGeoWords } from "open-geo-words";
 ```
 
-Or in your Node.js code:
+Or in your Node.js / CommonJS code:
 
 ```js
 var { OpenGeoWords } = require("open-geo-words");
