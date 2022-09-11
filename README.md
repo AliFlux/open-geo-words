@@ -56,19 +56,13 @@ var OpenGeoWords = new window["open-geo-words"].OpenGeoWords;
 
 What3words is pretty amazing, but it only works as an online API. In GIS and mapping domain, there is an increasing demand for offline systems so I decided to write this tiny script in a couple of hours to provide an alternative.
 
-## Limitations
-
-~~Currently a four words string is generated instead of three. That is because the [words list](src/corpus.js) I am using only has about 8000 words. I am looking for a list of about 60k words to properly map the world in three words. The list must only contain most frequent words in simple english, without any profanity and complications. If you find such a list, please let me know.~~
-
-Three words are now supported. The dictionary of about 60k words is built in, and heavily compressed to speed up the page load.
-
 ## Stay in touch
 
-For latest releases and announcements, check out my site: [aliashraf.net](http://aliashraf.net)
+For latest releases and announcements, check out my site: [aliashraf.me](http://aliashraf.me)
 
 ## License
 
 This software is released under the [MIT License](LICENSE). Please read LICENSE for information on the
 software availability and distribution.
 
-Copyright (c) 2022 [Ali Ashraf](http://aliashraf.net)
+Copyright (c) 2022 [Ali Ashraf](http://aliashraf.me)
